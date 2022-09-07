@@ -49,10 +49,10 @@ Coffee | MlMilk
 Cortado | 40
 Latte | 200
 
-### 6 Add coffedrinks to the orderlist 
-Now create some different coffee objects 
+### 6 Add coffedrinks objects  
+Now create some different coffee objects in the program file
 
-Create a list so it could consist of all off the coffee drinks. 
+Also create a list so it could consist of all off the coffee drinks. 
 
 Foreach over the list and print out the price and strength for every object. 
 
@@ -65,8 +65,31 @@ Also implement a constructor at the coffee class to set the discount.
 
 Also implement the constructor at the specialized classes. 
 
-**new The price method have to handle the discount for the coffee, so the price is correct 
-**new If the discount is bigger than 5 kr. Raise an exception 
+The price method have to handle the discount for the coffee, so the price is correct 
+If the discount is bigger than 5 kr. Raise an exception 
+
+
+```mermaid
+classDiagram
+    Coffee <|-- BlackCoffee
+    Coffee <|-- Latte
+    Coffee <|-- Cortado
+    Coffee : +int Price
+    Coffee : +string Strength
+    Coffee : +int Discount
+    class IMlMilk{
+    }
+    Latte ..> IMlMilk
+    Cortado ..> IMlMilk
+    class Latte{
+         +MlMilk()
+    }
+    class Cortado{
+         +MlMilk()
+    }
+```
+
+Extra assignments:
 
 ### 8 extra Add only coffee with milks list  
 Create a new list that only can consists of coffee with milk.  Which type should the list have? add some objects to the list. 
@@ -95,3 +118,5 @@ Thik about what would be nice to put in this class
 ### 13 extra Not only milk
 Add some functionality so that the customer can select different types of milk/Nonmilk e.g. "minimælk", "sødmælk", "havredrik", "soyadrik" etc. 
 where should you place the logic to handle this ?- think about it before you code :-)
+
+
