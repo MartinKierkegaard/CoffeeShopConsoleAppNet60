@@ -89,9 +89,7 @@ classDiagram
     }
 ```
 
-Extra assignments:
-
-Extra assignments:
+## Extra assignments:
 
 ### 8 extra Add only coffee with milks list  
 Create a new list that only can consists of coffee with milk.  Which type should the list have? add some objects to the list. 
