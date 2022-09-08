@@ -4,6 +4,7 @@
 
 You are implementing a system for a coffeshop that support their business to keep track of the coffee orders. Until now the shop only sell one type of coffee and therefore only have one class named “coffee” in the It system. But now the owner wants to sell different kind of coffee e.g. Latte and Cortado etc. It’s your job to create and implements these new drinks in the system. 
 
+### 0 Coffee class
 The Coffee class has one public method “Price”, which returns the price of the coffee. It returns 20 (Danish kroner) 
 
 Below are all the tasks that should be solved by you. 
