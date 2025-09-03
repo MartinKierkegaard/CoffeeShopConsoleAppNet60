@@ -114,7 +114,7 @@ Add some methods that:
 -count the total of the discount in the order
 
 ### 12 extra Add a OrderSystem class that can handle multiple orders
-Thik about what would be nice to put in this class
+Think about what would be nice to put in this class
 
 ### 13 extra Not only milk
 Add some functionality so that the customer can select different types of milk/Nonmilk e.g. "minimælk", "sødmælk", "havredrik", "soyadrik" etc. 
