@@ -66,8 +66,8 @@ Also implement a constructor at the coffee class to set the discount.
 
 Also implement the constructor at the specialized classes. 
 
-The price method have to handle the discount for the coffee, so the price is correct 
-If the discount is bigger than 5 kr. Raise an exception 
+The price method have to handle the discount for the coffee, so the price is correct. 
+If the discount is bigger than 5 kr. then raise an exception eg. ArgumentOutOfRangeException. 
 
 
 ```mermaid
